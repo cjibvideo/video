@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/9dad185434.js" crossorigin="anonymous"></script>
+	</head>
+<body>
+	<div class="actiePunt">Kies wat je wil zien <i class="fa-solid fa-angles-right fa-bounce" style="color: #ffffff;"></i> </div><button onclick="setCurTime()" type="button" class="buttonOne"><i class="fa-solid fa-angle-right fa-bounce" style="color: #ffffff;"></i> Uitleg inlog methode</button><button onclick="setCurTimeTwo()" type="button" class="buttonOne"><i class="fa-solid fa-angle-right fa-bounce" style="color: #ffffff;"></i> Access denied melding</button>
+	<video id="myVideo" width="800" height="600" controls>
+	<source src="https://topdeskssp.shs.cjib.minjus.nl/tas/public/dispatcherpublicservlet/9E49S891V1CJ0RNFX2LI5LTW44076RWUSXKKU5JB8PWE0/vid_1.mp4" type="video/mp4" >
+	
+	<script>
+		let vid = document.getElementById("myVideo");
+
+		function setCurTime() { 
+		vid.currentTime=2;
+		} 
+
+		function setCurTimeTwo() { 
+		vid.currentTime=41;
+		} 
+	</script> 
+	
+</body>
+
+</html>

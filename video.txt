@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="indexStyle.css">
+	</head>
+	
+	<body>
+		<iframe id="dashboard" src="Wallboard SD.html"></iframe>		
+	</body>
+</html>

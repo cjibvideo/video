@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/9dad185434.js" crossorigin="anonymous"></script>
+	</head>
+	<title>Video tutorial</title>
+	<body>
+		<div class="header">
+			<img src="cjib_logo.jpg" alt="logo" height="120px">
+		</div>
+		<ul>
+			<div class="navbar">
+				<li><a href="https://topdeskssp.shs.cjib.minjus.nl/tas/public/ssp">Self Service Portaal</a></li>
+				<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">Video's</a>
+					<div class="dropdown-content">
+					<a href="#" id="mulder" onClick='document.getElementById("videoFrame").src="muldervideo.html";'>Mulder wachtwoord reset</a>
+					<a href="#" id="securid" onClick='document.getElementById("videoFrame").src="securidvideo.html";'>SecurID authenticator</a>
+					</div>
+			</div>
+		  </li>
+		</ul>
+		<div class="middle">
+			<div class="video1">
+				<iframe id="videoFrame" width="1000" height="800" style="border: none"></iframe>	
+			</div>
+		</div>
+	</body>
+</html>
+
+
